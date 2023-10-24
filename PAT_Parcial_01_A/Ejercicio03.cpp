@@ -9,6 +9,7 @@ void MinStack::push(int value)
 	stack.push_back(value);
 	if (minStack.empty() || value <= minStack.back()) {
 		minStack.push_back(value); 
+
 	}
 }
 
